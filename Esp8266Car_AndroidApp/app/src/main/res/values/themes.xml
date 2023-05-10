@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Esp8266CarNew"  parent="Theme.MaterialComponents.DayNight.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <!-- 去除顶部边框-->
+        <!-- 是否隐藏窗口操作栏 -->
+        <!--        <item name="windowActionBar">true</item>-->
+        <!-- 是否隐藏标题栏 -->
+        <item name="windowNoTitle">true</item>
+        <!-- 是否隐藏状态栏 -->
+        <item name="android:windowFullscreen">true</item>
+        <!--设置顶部状态栏是否为透明-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--设置顶部状态栏和底部导航栏是否为透明-->
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <!-- 设置全面屏显示 -->
+        <item name="android:windowLayoutInDisplayCutoutMode">
+            shortEdges <!-- default, shortEdges, never -->
+        </item>
+    </style>
+</resources>
